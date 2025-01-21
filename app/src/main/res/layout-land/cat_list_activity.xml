@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="?attr/colorOnPrimaryContainer"
+        android:gravity="center"
+        android:text="Categorii"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textColor="?android:attr/colorBackground"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Button Grid -->
+
+    <!-- Row 1 -->
+    <Button
+        android:id="@+id/cat1"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="?android:attr/colorFocusedHighlight"
+        android:text="Family"
+        android:textColor="?attr/colorOnPrimaryContainer"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/cat2"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/cat2"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="?android:attr/colorFocusedHighlight"
+        android:text="Office"
+        android:textColor="?attr/colorOnPrimaryContainer"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/cat3"
+        app:layout_constraintStart_toEndOf="@+id/cat1"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/cat3"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="?android:attr/colorFocusedHighlight"
+        android:text="Gaming"
+        android:textColor="?attr/colorOnPrimaryContainer"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cat2"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <!-- Row 2 -->
+    <Button
+        android:id="@+id/cat4"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="?android:attr/colorFocusedHighlight"
+        android:text="Children"
+        android:textColor="?attr/colorOnPrimaryContainer"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/cat5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cat1" />
+
+    <Button
+        android:id="@+id/cat5"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="?android:attr/colorFocusedHighlight"
+        android:text="College"
+        android:textColor="?attr/colorOnPrimaryContainer"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/cat6"
+        app:layout_constraintStart_toEndOf="@+id/cat4"
+        app:layout_constraintTop_toBottomOf="@+id/cat2" />
+
+    <Button
+        android:id="@+id/cat6"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="?android:attr/colorFocusedHighlight"
+        android:text="Party"
+        android:textColor="?attr/colorOnPrimaryContainer"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cat5"
+        app:layout_constraintTop_toBottomOf="@+id/cat3" />
+
+    <!-- Row 3 -->
+    <Button
+        android:id="@+id/cat7"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="?android:attr/colorFocusedHighlight"
+        android:text="Unbelievable"
+        android:textColor="?attr/colorOnPrimaryContainer"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/cat8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cat4" />
+
+    <Button
+        android:id="@+id/cat8"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="?android:attr/colorFocusedHighlight"
+        android:text="Developers"
+        android:textColor="?attr/colorOnPrimaryContainer"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/cat9"
+        app:layout_constraintStart_toEndOf="@+id/cat7"
+        app:layout_constraintTop_toBottomOf="@+id/cat5" />
+
+    <Button
+        android:id="@+id/cat9"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="?android:attr/colorFocusedHighlight"
+        android:text="Gaming"
+        android:textColor="?attr/colorOnPrimaryContainer"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cat8"
+        app:layout_constraintTop_toBottomOf="@+id/cat6" />
+
+    <Button
+        android:id="@+id/backButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:background="?attr/colorTertiary"
+        android:text="Back"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorPrimaryInverseNoDisable"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="26sp"
+        app:autoSizeMinTextSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
