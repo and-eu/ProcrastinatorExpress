@@ -5,16 +5,17 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".activities.MainActivity"
     tools:ignore="ExtraText">
 
 
     <Button
-        android:id="@+id/quitButton"
-        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/quit_btn"
+        style="@style/Widget.Material3.Button"
         android:layout_width="0dp"
-        android:layout_height="70dp"
-        android:background="?attr/colorTertiary"
+        android:layout_height="60dp"
+        android:background="?attr/colorControlActivated"
+        android:backgroundTint="?attr/colorTertiary"
         android:text="Quit"
         android:textAlignment="center"
         android:textColor="?android:attr/textColorPrimaryInverseNoDisable"
@@ -22,16 +23,16 @@
         android:textStyle="bold"
         app:autoSizeMaxTextSize="26sp"
         app:autoSizeMinTextSize="20sp"
+        app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/title_text"
         android:layout_width="0dp"
         android:layout_height="90dp"
-        android:background="?attr/colorPrimary"
+        android:background="?attr/colorOnPrimaryFixed"
         android:gravity="center"
         android:singleLine="true"
         android:text="Procrastinator Express"

@@ -13,13 +13,15 @@
         android:layout_marginTop="100dp"
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="80dp"
-        app:layout_constraintBottom_toTopOf="@+id/generate_btn"
+        android:text="Loading..."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/refresh_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/generate_btn"
+        android:id="@+id/refresh_btn"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="0dp"
         android:layout_height="60dp"
@@ -37,7 +39,7 @@
         android:id="@+id/backButton"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="0dp"
-        android:layout_height="70dp"
+        android:layout_height="60dp"
         android:background="?attr/colorTertiary"
         android:text="Back"
         android:textAlignment="center"
