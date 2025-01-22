@@ -53,7 +53,7 @@
         android:layout_marginTop="100dp"
         android:layout_marginEnd="24dp"
         android:backgroundTint="?android:attr/colorActivatedHighlight"
-        android:text="Categorii \n Scuze"
+        android:text="Excuse \n categories"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="?attr/colorOnPrimaryFixedVariant"
         android:textSize="34sp"

@@ -11,7 +11,7 @@
         android:layout_height="60dp"
         android:background="?attr/colorOnPrimaryContainer"
         android:gravity="center"
-        android:text="Categorii"
+        android:text="Categories"
         android:textAlignment="gravity"
         android:textAllCaps="false"
         android:textColor="?android:attr/colorBackground"

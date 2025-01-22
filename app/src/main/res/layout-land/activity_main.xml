@@ -30,7 +30,7 @@
         android:layout_height="125dp"
         android:layout_margin="16dp"
         android:backgroundTint="?android:attr/colorActivatedHighlight"
-        android:text="Categorii\nScuze"
+        android:text="Excuse categories"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="?attr/colorOnPrimaryFixedVariant"
         android:textSize="34sp"
