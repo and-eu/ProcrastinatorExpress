@@ -21,10 +21,10 @@
 
 ## Screenshots
 
-![MainActivity](prtscrn\2.png)
-![CatListActivity](prtscrn\3_cat_list.png)
-![DetailActivity](prtscrn\3_cat_list_Family1.png)
-![ChatActivity](prtscrn\4_Chat_developers1.png)
+![MainActivity](prtscrn/2.png)
+![CatListActivity](prtscrn/3_cat_list.png)
+![DetailActivity](prtscrn/3_cat_list_Family1.png)
+![ChatActivity](prtscrn/4_Chat_developers1.png)
 
 
 ## Functionalitatea Aplicatiei
@@ -111,13 +111,13 @@ ProcrastinatorExpress
  │           │               │
  │           │               ├───activities
  │           │               │       MainActivity.java
- │           │               │		 CatListActivity.java
+ │           │               │		   CatListActivity.java
  │           │               │       DetailActivity.java
- │			 │				 │       ChatActivity.java
+ │			     │				       │       ChatActivity.java
  │           │               │
  │           │               └───services
  │           │                       CategoryService.java
- │			 │						 ChatService.java
+ │			     │						           ChatService.java
  │           │
  │           └───res
  │               ├───drawable
@@ -128,13 +128,13 @@ ProcrastinatorExpress
  │               │       activity_main.xml
  │               │       cat_list_activity.xml
  │               │       detail_activity.xml
- │				 │		 chat_activity.xml
+ │			      	 │		   chat_activity.xml
  │               │
  │               ├───layout-land
  │               │       activity_main.xml
  │               │       cat_list_activity.xml
  │               │       detail_activity.xml
- │				 │		 chat_activity.xml
+ │			      	 │		   chat_activity.xml
  │               │
  │               └───values
  │                       colors.xml
