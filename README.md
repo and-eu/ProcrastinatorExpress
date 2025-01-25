@@ -111,13 +111,13 @@ ProcrastinatorExpress
  │           │               │
  │           │               ├───activities
  │           │               │       MainActivity.java
- │           │               │		   CatListActivity.java
+ │           │               │       CatListActivity.java
  │           │               │       DetailActivity.java
- │			     │				       │       ChatActivity.java
+ │           │               │       ChatActivity.java
  │           │               │
  │           │               └───services
  │           │                       CategoryService.java
- │			     │						           ChatService.java
+ │           │                       ChatService.java
  │           │
  │           └───res
  │               ├───drawable
@@ -128,13 +128,13 @@ ProcrastinatorExpress
  │               │       activity_main.xml
  │               │       cat_list_activity.xml
  │               │       detail_activity.xml
- │			      	 │		   chat_activity.xml
+ │               │       chat_activity.xml
  │               │
  │               ├───layout-land
  │               │       activity_main.xml
  │               │       cat_list_activity.xml
  │               │       detail_activity.xml
- │			      	 │		   chat_activity.xml
+ │               │       chat_activity.xml
  │               │
  │               └───values
  │                       colors.xml
